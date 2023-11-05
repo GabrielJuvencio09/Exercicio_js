@@ -1,0 +1,111 @@
+.desconto{
+    display: none;
+}
+
+.ativo{
+    display: inline-block;
+    font-size: 1.5rem;
+    color:red;
+
+}
+
+
+.estilo{
+    background-color: blueviolet;
+    color: white;
+    
+}
+
+.estilo p{
+    color:black;
+}
+
+.estilo a{
+    
+    background-color: white;
+    color: blueviolet;
+}
+
+.estilo a:hover{
+    border: 2px solid white;
+    color: white;
+}
+
+.Prof{
+   position: relative;
+
+}
+
+.Prof::after{
+    top: -1.7rem;
+    right: -1.5rem;
+    position: absolute;
+    content: ' Mais Vendido';
+font-size: small;
+background-color: red;
+padding: 2px;
+border-radius: 0.2rem;
+
+}
+
+
+.flip-in-ver-right {
+	-webkit-animation: flip-in-ver-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: flip-in-ver-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+@-webkit-keyframes flip-in-ver-right {
+    0% {
+      -webkit-transform: rotateY(-80deg);
+              transform: rotateY(-80deg);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotateY(0);
+              transform: rotateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes flip-in-ver-right {
+    0% {
+      -webkit-transform: rotateY(-80deg);
+              transform: rotateY(-80deg);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotateY(0);
+              transform: rotateY(0);
+      opacity: 1;
+    }
+  }
+
+
+  .flip-in-ver-left {
+	-webkit-animation: flip-in-ver-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: flip-in-ver-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@-webkit-keyframes flip-in-ver-left {
+    0% {
+      -webkit-transform: rotateY(80deg);
+              transform: rotateY(80deg);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotateY(0);
+              transform: rotateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes flip-in-ver-left {
+    0% {
+      -webkit-transform: rotateY(80deg);
+              transform: rotateY(80deg);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotateY(0);
+              transform: rotateY(0);
+      opacity: 1;
+    }
+  }
