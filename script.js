@@ -17,8 +17,6 @@ function Foichecado(){
             e.classList.remove('flip-in-ver-right');
         }
     })
-}
-
 
     descontos.forEach(function(desconto){
         desconto.classList.toggle('ativo')
@@ -34,6 +32,7 @@ function Foichecado(){
         profissional.textContent = '$24.99'
         master.textContent = '$39.99'
     }
+}
 
 check.addEventListener('click', Foichecado)
 // ------------------------- //
