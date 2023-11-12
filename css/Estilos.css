@@ -9,11 +9,14 @@
 
 }
 
-
 .estilo{
     background-color: blueviolet;
     color: white;
-    
+  
+}
+
+.estilo:hover{
+  transition:all ease-in-out 0.5s ;
 }
 
 .estilo p{
@@ -37,13 +40,13 @@
 }
 
 .Prof::after{
-    top: -1.7rem;
+    top: -2rem;
     right: -1.5rem;
     position: absolute;
     content: ' Mais Vendido';
 font-size: small;
 background-color: red;
-padding: 2px;
+padding: 5px;
 border-radius: 0.2rem;
 
 }

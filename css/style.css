@@ -4,9 +4,14 @@
 }
 
 li, a{
+
     list-style: none;
     text-decoration: none;
 
+}
+
+a{
+    display: inline-block;
 }
 
 body{

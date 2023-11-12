@@ -3,7 +3,7 @@ const basico = document.querySelector('.valor-b')
 const profissional = document.querySelector('.valor-p')
 const master = document.querySelector('.valor-m')
 const descontos = document.querySelectorAll('.desconto')
-const sessoes = document.querySelectorAll('section')
+const sessoes = document.querySelectorAll('.planos')
 
 
 function Foichecado(){
@@ -40,16 +40,18 @@ check.addEventListener('click', Foichecado)
 
 
 sessoes.forEach((sessao) => {
-
-   
+    
+    
 
     sessao.addEventListener('mouseover', alterarestilo)
     sessao.addEventListener('mouseout', removerestilo);
     function alterarestilo() {
+        
         sessao.classList.add('estilo');
     }
 
     function removerestilo() {
+        
         sessao.classList.remove('estilo');
     }
 

@@ -2,40 +2,39 @@ main{
     margin-top: 2rem;
     justify-content: center;
     display: flex;
-    gap:0.2rem;
+    gap:0.5px;
     flex-wrap: wrap;
     align-items: center;
 }
 
-section{
+.planos{
     background-color: white;
     font-size: 1rem;
     border: 1px solid black;
     border-radius: 0.5rem;
-    padding:2rem;
+    padding:3rem;
     cursor: pointer;
 }
 
-section:hover{
-    
-    padding: 3rem;
+.planos:hover{
+    padding: 4rem;
 }
 
-section:nth-child(odd){
+.planos:nth-child(odd){
     padding:2rem;
 }
 
-section:nth-child(odd):hover{
+.planos:nth-child(odd):hover{
     padding:3rem;
 }
 
-section div{
+.planos div{
     display: flex;
     flex-direction: column;
     gap: 2rem;
     text-align: center;
 }
-section div h1{
+.planos div h1{
     font-size: 4rem;
 }
 
